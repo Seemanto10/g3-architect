@@ -8,3 +8,26 @@
   font-weight: <weight>;
   font-style: normal;
 }
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navlinks{
+    display: flex;
+    
+}
+.navitem{
+    list-style: none;
+    margin-right: 30px ;
+    
+    
+}
+.navitem>a{
+    text-decoration: none;
+    
+}
+.nav-link{
+    font-weight: 200px;
+    color: rgb(72, 70, 70);
+    font-size: x-small;
+}
