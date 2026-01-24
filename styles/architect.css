@@ -152,7 +152,12 @@ text-align: left;
 }
 /* media query headline
  */
- @media screen and (max-width:576px) {
-
+ @media screen and (min-width:577px) and (max-width:992px) {
+        .group-img{
+            grid-template-columns: repeat(2,1fr);
+        }
+        .first-container{
+            flex-direction: column;
+        }
     
  }
