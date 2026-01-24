@@ -87,6 +87,24 @@
 .banner-image{
     width: 100%;
 }
+.main{
+    margin-top: 130px;
+}
+.first-container{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.group-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.notes{
+    margin-left: 30px;
+}
+
+
 /* media qury min device */
 @media screen and (max-width:576px) {
     .nav , .navlinks {
