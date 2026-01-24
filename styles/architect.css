@@ -132,7 +132,13 @@ text-align: left;
 .notes-heading-two{
     color: rgba(255, 144, 14, 1);
 }
-
+.fact-card{
+    border: 1px solid rgba(255, 144, 14, 1);
+}
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
 
 /* media qury min device */
 @media screen and (max-width:576px) {
