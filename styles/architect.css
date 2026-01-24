@@ -66,7 +66,7 @@
     align-items: center;
 } */
  .banner-content{
-    max-width: 850px;
+    /* max-width: 850px; */
     margin: 0 auto;
     text-align: center;
     margin-bottom: 50px;
@@ -94,3 +94,9 @@
     }
     
 }
+/* media query headline
+ */
+ @media screen and (max-width:576px) {
+
+    
+ }
