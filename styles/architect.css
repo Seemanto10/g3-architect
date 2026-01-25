@@ -169,6 +169,20 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: left;
 }
+.sponsor-info{
+    max-width: 540px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.sponsor-companies{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    padding-left: 200px;
+}
+.sponsor-companies img{
+    filter: grayscale(100%);
+}
 
 
 /* media qury min device */
@@ -184,6 +198,20 @@ text-align: left;
     }
     .first-container{
         flex-direction: column;
+    }
+    .facts-container{
+        grid-template-columns: repeat(1,1fr);
+        /* justify-content: center; */
+        /* align-items: center; */
+        gap: 24px;
+    }
+    .some-facts{
+        text-align: center;
+    }
+    .sponsor-companies{
+        grid-template-columns: repeat(1,1fr);
+        gap: 50px;
+        
     }
     
 }
