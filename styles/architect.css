@@ -216,6 +216,17 @@ text-align: left;
     margin-top: -100px;
 
 }
+.footer-box{
+    background-color: antiquewhite;
+    
+    width: 1400px;
+    border: 1px solid rgba(249, 249, 249, 0.231);
+    text-align: center;
+}
+.footer{
+    padding-left: 240px;
+    margin-top: 200px;
+}
 
 
 /* media qury min device */
@@ -246,7 +257,21 @@ text-align: left;
         gap: 50px;
         
     }
-    
+    .features{
+        flex-direction: column;
+        
+    }
+    .content-img img{
+        max-width: 100%;
+    }
+    .btn-feature{
+        margin-left: 20px;
+        margin-top: 20px;
+        max-width: 100%;
+    }
+    .content-tag{
+        max-width: 100%;
+    }
 }
 /* media query headline
  */
