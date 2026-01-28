@@ -185,6 +185,39 @@ text-align: left;
 }
 
 
+.features{
+    display: flex;
+    gap: 140px
+    ;
+}
+.para{
+    color: var(Dark 03, rgba(114, 114, 114, 1));
+
+font-family: Work Sans;
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+#big{
+    font-size: 4rem;
+    font-weight: 700px;
+}
+.btn-feature{
+     border-radius: 8px;
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    padding: 20px 25px ;
+    font-size: 1.25rem;
+    font-weight: 600px;
+    margin-left: -100px;
+    margin-top: -100px;
+
+}
+
+
 /* media qury min device */
 @media screen and (max-width:576px) {
     .nav , .navlinks {
